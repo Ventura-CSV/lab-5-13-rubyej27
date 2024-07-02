@@ -2,7 +2,7 @@ import random
 
 
 def findEvenNumber(numbers):
-    for num in numbers[1:]:
+    for num in numbers:
         if num % 2 == 0:
             yield (num)
            
